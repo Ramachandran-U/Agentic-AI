@@ -1,7 +1,7 @@
 [project]
-name = "yt-live-crash-course"
+name = "brd-interpretation-pipeline"
 version = "0.1.0"
-description = "Add your description here"
+description = "Controlled BRD to Jira-ready artifact interpretation pipeline"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["fastapi", "uvicorn", "pydantic"]
